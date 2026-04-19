@@ -1,0 +1,81 @@
+# R
+.Rhistory
+.RData
+.Rproj.user/
+.Ruserdata
+.Rapp.history
+.Rhistory
+.Rprofile
+.Renviron
+.Rbuildignore
+
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+env/
+venv/
+.venv/
+python_env/
+*.env
+*.venv
+
+# Jupyter
+.ipynb_checkpoints/
+*.ipynb_checkpoints
+*.nb.html
+*.nbconvert.ipynb
+
+# Data and output
+data/
+output/
+*.csv
+*.tsv
+*.rds
+*.h5
+*.h5ad
+*.loom
+*.rdata
+*.rda
+
+# Logs and temp files
+*.log
+*.tmp
+*.temp
+*.cache
+*.bak
+*.swp
+*~
+
+# VS Code
+.vscode/
+.history/
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Binary files
+*.pdf
+*.png
+*.jpg
+*.jpeg
+*.tiff
+*.tif
+*.bmp
+*.svg
+*.zip
+*.tar.gz
+*.tgz
+*.rar
+*.7z
+
+# Build artifacts
+*.o
+*.so
+*.dll
+*.exe
+
+# Micromamba
+bin/micromamba

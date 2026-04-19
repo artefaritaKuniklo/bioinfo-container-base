@@ -1,0 +1,29 @@
+{
+    "name": "RCAE-Sc",
+    "version": "0.0.1",
+    "description": "R Common Analysis Environment, tuned for single-cell RNA-seq data analysis",
+    "build": {
+        "dockerfile": "Dockerfile"
+    },
+    "features": {
+        // @todo: fix it in next ver
+        // "ghcr.io/devcontainers/features/common-utils:2": {}
+    },
+    "customizations": {
+        "vscode": {
+            "extensions": [
+                "reditorsupport.r",
+                "ms-toolsai.jupyter",
+                "ms-python.python",
+                "GitHub.vscode-pull-request-github",
+                "mechatroner.rainbow-csv"
+            ],
+            "settings": {
+                "r.bracketedPaste": true,
+                "jupyter.jupyterServerType": "local"
+            }
+        }
+    },
+    "postCreateCommand": "bash .devcontainer/install.sh",
+    "postStartCommand": "bash .devcontainer/start.sh"
+}
