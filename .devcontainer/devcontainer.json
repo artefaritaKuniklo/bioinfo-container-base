@@ -14,6 +14,7 @@
             "extensions": [
                 "reditorsupport.r",
                 "ms-toolsai.jupyter",
+                "ms-toolsai.vscode-jupyter-powertoys",
                 "ms-python.python",
                 "GitHub.vscode-pull-request-github",
                 "mechatroner.rainbow-csv"
@@ -25,5 +26,8 @@
         }
     },
     "postCreateCommand": "bash .devcontainer/install.sh",
-    "postStartCommand": "bash .devcontainer/start.sh"
+    "postStartCommand": "bash .devcontainer/start.sh",
+    "containerEnv": {
+        "R_PROFILE_USER": "/usr/local/lib/R/etc/renv_auto_activate.R"
+    }
 }
