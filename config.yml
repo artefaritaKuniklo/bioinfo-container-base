@@ -1,0 +1,16 @@
+default:
+  data_path: "data/"
+  n_cores: 8
+  seed: 42
+  plan: 'sequential'
+  sample_list:
+    - C32-79
+    - D92-98
+  percent_mt_cutoff: 15
+  nFeature_RNA_cutoff: 300
+  nCount_RNA_cutoff: 500
+
+production:
+  n_cores: 32
+  plan: 'multicore'
+
